@@ -1,29 +1,237 @@
-body{
+*{
     margin: 0;
-    padding: 0;
 }
 
 header{
     background: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    height: 780px;
+}
+
+header h1{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+header p{
+    font-size: 36px;
+    color: white;
+    width: 305px;
+    height: 101px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+    margin-left: 305px;
+    margin-top: 250px;
+    background-color: #7299FE80;
 }
 
 .section01{
     background: #7299FE;
+    height: 424px;
 }
+
+.section01 h1{
+    font-size: 36px;
+    line-height: 41px;
+    color:#1D06A7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section01 p{
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    width: 872px;
+    height: 166px;
+    padding-left: 230px;
+    font-weight: 400px;
+}
+
+.section01 button{
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #D16FFF;
+    width: 187px;
+    height: 54px;
+    margin-left: 230px;
+}
+
 
 .section02{
     background: #9022FF;
+    height: 424px;
+}
+
+.section02 h1{
+    color: #26CC4B;
+    font-size: 36px;
+    line-height: 41px;
+    padding: 20px;
+}
+
+.section02 label{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.section02-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.section02-contenedor_grupo01{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.section02-contenedor_grupo02{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.barra{
+    width: 400px;
+    height: 20px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.progreso-html{
+    width: 319px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.progreso-js{
+    width: 215px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.progreso-flexbox{
+    width: 363px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.progreso-css{
+    width: 64px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.progreso-vue{
+    width: 339px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.progreso-grid{
+    width: 185px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
 }
 
 .section03{
     background: #FFD233;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.section03 h1{
+    color: #00AD84;
+    font-size: 36px;
+    line-height: 41px;
+    padding: 20px;
+}
+
+.section03  img{
+    padding-left: 13px;
 }
 
 .section04{
     background: #3F4E62;
+    height: 258px;
+}
+
+.section04 h1{
+    color:#ADFF28;
+    font-size: 36px;
+    padding: 20px;
+    line-height: 41px;
+}
+
+.section04 div{
+    margin-left: 240px;
+}
+
+.section04 img{
+    padding-left: 15px;
 }
 
 footer{
     background: #1687A0;
+    height: 578px;
+}
+
+form{
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+   background-color: white;
+   margin: 10px;
+   padding: 5px;
+   border: none;
+   width: 490px;
+   height: 40px;
+}
+
+form button{
+    color: white;
+    width: 10%;
+    border: none;
+    height: 40px;
+    background-color: rgb(40, 66, 139);
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+#descripción{
+    width: 94%;
+   height: 70px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    padding-bottom: 30px ;
 }
