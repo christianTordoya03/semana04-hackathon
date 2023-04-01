@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(img/header.png);
+}
+
+.section01{
+    background: #7299FE;
+}
+
+.section02{
+    background: #9022FF;
+}
+
+.section03{
+    background: #FFD233;
+
+}
+
+.section04{
+    background: #3F4E62;
+}
+
+footer{
+    background: #1687A0;
+}
